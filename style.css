@@ -1,0 +1,67 @@
+body {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2% 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgrey;
+  line-height: 1.5;
+}
+
+main {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+h1,
+h2,
+h3 {
+  color:
+    darkblue;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  display: inline-block;
+  margin-left: .5rem;
+}
+
+nav a:hover img {
+  filter: invert(26%) sepia(93%) saturate(1540%) hue-rotate(204deg) brightness(89%) contrast(98%);
+  transition: filter 0.2s ease-in-out;
+}
+
+.nav-img {
+  width: 1rem;
+  margin-right: .5rem;
+}
+
+.img-placeholder {
+  width: 15rem;
+  height: auto;
+  border-radius: 10px;
+}
+
+table,
+table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table td {
+  padding: .5rem
+}
+
+#user-img {
+  width: 5rem;
+  border-radius: 50%;
+  float: right;
+}
+
+section {
+  padding: 1rem;
+  border-bottom: 1px solid lightgrey;
+}
