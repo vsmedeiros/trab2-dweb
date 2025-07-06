@@ -65,3 +65,9 @@ section {
   padding: 1rem;
   border-bottom: 1px solid lightgrey;
 }
+
+.css-badge {
+  border: 0;
+  width: 88px;
+  height: 31px;
+}
